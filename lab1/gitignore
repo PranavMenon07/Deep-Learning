@@ -1,0 +1,20 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Generated outputs
+plots/
+plots.zip
+
+# Dataset (optional: uncomment if you don't want to commit raw data)
+# data/data_banknote_authentication.txt
+
+# OS files
+.DS_Store
