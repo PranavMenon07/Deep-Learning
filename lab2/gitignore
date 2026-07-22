@@ -1,0 +1,20 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Generated outputs
+figures/
+fashion_mnist_plots.zip
+
+# Cached dataset (downloaded automatically by keras)
+*.npz
+
+# OS files
+.DS_Store
