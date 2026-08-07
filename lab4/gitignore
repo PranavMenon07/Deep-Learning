@@ -1,0 +1,55 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Datasets & cached downloads ---
+data/
+datasets/
+*.tar.gz
+*.zip
+cifar-10-batches-py/
+.keras/
+
+# --- Experiment outputs ---
+outputs/
+output_images.zip
+*.png
+*.jpg
+*.jpeg
+!docs/**/*.png
+
+# --- Trained models / checkpoints ---
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.pb
+checkpoints/
+saved_models/
+logs/
+tensorboard_logs/
+
+# --- OS / editor files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Environment / secrets ---
+.env
+*.env.local

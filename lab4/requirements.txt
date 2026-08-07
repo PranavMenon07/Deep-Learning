@@ -1,0 +1,16 @@
+# Core deep learning framework (includes Keras)
+tensorflow>=2.13,<2.17
+
+# Numerical / data handling
+numpy>=1.23
+
+# Plotting
+matplotlib>=3.6
+seaborn>=0.12
+
+# Evaluation metrics
+scikit-learn>=1.2
+
+# Notebook execution (optional, only needed to run/convert the .ipynb)
+jupyter>=1.0
+nbconvert>=7.0
