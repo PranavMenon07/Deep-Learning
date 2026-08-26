@@ -1,0 +1,43 @@
+# --- Dataset (downloaded automatically by the scripts -- see DATASET.md) ---
+pets/
+*.tar.gz
+images/
+annotations/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+env/
+.venv/
+*.egg-info/
+
+# --- Trained models / checkpoints (large binary artifacts) ---
+*.h5
+*.keras
+*.ckpt
+*.pb
+checkpoints/
+saved_model/
+
+# --- LaTeX build artifacts (keep the .tex source and final .pdf) ---
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Colab ---
+*.ipynb_checkpoints
