@@ -1,0 +1,101 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===== Virtual environments =====
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# ===== Jupyter / Colab =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+# Keep the notebook itself, but ignore autosave/checkpoint copies
+*-checkpoint.ipynb
+
+# ===== Datasets (do not commit raw data) =====
+data/
+UCI_HAR_Dataset/
+UCI_HAR_Dataset.zip
+UCF101_subset/
+UCF101/
+*.avi
+*.mp4
+*.mov
+*_extract/
+
+# ===== Model artifacts / checkpoints =====
+*.h5
+*.keras
+*.pb
+*.ckpt
+*.pt
+*.pth
+saved_models/
+checkpoints/
+logs/
+tensorboard_logs/
+runs/
+
+# ===== Generated outputs (plots, results) =====
+plot*.png
+outputs/
+results/
+*.csv
+!requirements.csv
+
+# ===== LaTeX build artifacts =====
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+*.lof
+*.lot
+*.figlist
+*.makefile
+*.fdb_latexmk
+*.auxlock
+# Keep the final compiled PDF report if you want to track it; otherwise uncomment:
+# *.pdf
+
+# ===== OS / editor junk =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ===== Secrets / environment =====
+.env
+*.pem
+credentials.json

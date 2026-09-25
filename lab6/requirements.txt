@@ -1,0 +1,21 @@
+# Core deep learning
+tensorflow>=2.15,<3.0
+
+# Data handling
+numpy>=1.26
+pandas>=2.0
+
+# Plotting
+matplotlib>=3.8
+seaborn>=0.13
+
+# Metrics / splitting
+scikit-learn>=1.4
+
+# Video frame handling (CNN + RNN video section)
+opencv-python-headless>=4.9
+
+# Notebook execution (only needed for local/offline runs; Colab has these preinstalled)
+jupyter>=1.0
+notebook>=7.0
+ipykernel>=6.29
