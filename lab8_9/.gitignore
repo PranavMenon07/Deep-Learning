@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints and model weights
+*.pt
+*.pth
+*.bin
+
+# Dataset archives and cache
+dataset/flower_photos.tgz
+dataset/flower_photos/
+.cache/
+
+# LaTeX build artifacts (if compiled with pdflatex)
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env/
